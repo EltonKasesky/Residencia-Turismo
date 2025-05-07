@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --header-background: transparent;
+    --main-color: #ffb700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: var(--header-background);
+}
+
+.navbar .container-fluid .title {
+    color: var(--main-color);
+}
+
+.navbar .container-fluid .title:hover {
+    opacity: 0.9;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--main-color);
+}
